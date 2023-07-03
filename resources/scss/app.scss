@@ -1,1 +1,33 @@
 @import "~bootstrap/scss/bootstrap";
+
+#ms_divCard {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    gap: 1em
+};
+.ms_card {
+    width: calc(100% / 5 - 1em);
+    min-height: 15em;
+    border: 1px solid #151515;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    & li {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.ms_category {
+    color: #a1a;
+    font-weight: bold;
+}
+
+.ms_db {
+    text-decoration:underline;
+}
